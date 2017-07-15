@@ -17,8 +17,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 body {
-  line-height: 1; 
-}
+  line-height: 1; }
 
 ol, ul {
   list-style: none; }
@@ -63,8 +62,8 @@ html {
 
 body {
   font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-size: 14px;
-  color: #333;
+  font-size: 1em;
+  color: #000000;
   -webkit-font-smoothing: antialiased; }
 
 ::selection {
@@ -393,8 +392,6 @@ img::-moz-selection {
     /*margin: 0 10%;*/
     margin-right: 60px;
     padding: 50px 0; 
-    /*margin: 0 auto; */
-    /*width: 700px;*/
   }
 
   .footer {
@@ -810,7 +807,7 @@ img::-moz-selection {
   }
   .post-list li {
     margin: 0 0 2.2em 0;
-    float: left;
+    /*float: left;*/
 
     -moz-box-shadow:4px 4px 4px #efefef, 
     -4px -4px 4px #efefef, 
@@ -861,7 +858,6 @@ img::-moz-selection {
     color: #000000; 
     background-color: #FAFAFA;
   }
-}
 
 .post-list__meta {
   display: block;
@@ -1141,7 +1137,6 @@ input[type="tel"]:-ms-input-placeholder {
     margin-left: 0; 
   }
 }
-
 @media all and (max-width: 420px) {
   .panel-main__inner {
     padding: 0 5%; 
